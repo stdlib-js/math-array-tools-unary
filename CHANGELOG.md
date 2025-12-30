@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-12-30)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`7899877`](https://github.com/stdlib-js/stdlib/commit/7899877266584eb169e76c2bdda34d886d3668b1) - **refactor:** defensively copy provided dtype arrays _(by Athan Reines)_
 -   [`e051a2f`](https://github.com/stdlib-js/stdlib/commit/e051a2fbf9cb31b562972c20c361a71b6ad837f6) - **fix:** improve type specificity _(by Athan Reines)_
 -   [`3938b26`](https://github.com/stdlib-js/stdlib/commit/3938b265e603116448c89fcaa58df70e79d40f59) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`17a0a25`](https://github.com/stdlib-js/stdlib/commit/17a0a25ecf237da6dcbe7cc0e8f660891b9253aa) - **docs:** fix example _(by Athan Reines)_
