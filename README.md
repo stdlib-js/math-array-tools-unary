@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@deno/mod.js';
+import Unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@v0.1.0-deno/mod.js';
 ```
 
 #### Unary( fcn, idtypes, odtypes, policy )
@@ -160,7 +160,7 @@ import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
 import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import Unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@deno/mod.js';
+import Unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@v0.1.0-deno/mod.js';
 
 // Define the supported input and output data types:
 var idt = dtypes( 'real_and_generic' );
