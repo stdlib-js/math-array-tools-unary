@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+Unary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-array-tools-unary/tags). For example,
+
+```javascript
 Unary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var Unary = require( 'path/to/vendor/umd/math-array-tools-unary/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -187,7 +192,7 @@ The method has the following parameters:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools-unary@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
